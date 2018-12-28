@@ -324,14 +324,14 @@ var SlimScroll = (function () {
             .addClass(o.wrapperClass)
             .css({
                 position: 'relative',
-                overflow: 'hidden',
+                overflow: 'visible',
                 width: o.width,
                 height: o.height
             });
 
         // update style for the div
         me.css({
-            overflow: 'hidden',
+            overflow: 'visible',
             width: o.width,
             height: o.height
         });
