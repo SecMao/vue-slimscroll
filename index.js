@@ -331,11 +331,11 @@ var SlimScroll = (function () {
 
         // update style for the div
         me.css({
-            overflow: 'visible',
+            overflow: 'visible hidden',
             width: o.width,
             height: o.height
         });
-
+        me.addClass('scroll-sidebar')
         // create scrollbar rail
         var rail = $(divS)
             .addClass(o.railClass)
